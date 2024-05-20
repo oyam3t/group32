@@ -13,7 +13,7 @@ public class collideScript : MonoBehaviour
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((collision.gameObject.CompareTag("son")))
+        if ((collision.gameObject.CompareTag("son")) || collision.gameObject.CompareTag("portal"))
         {
             SceneManager.LoadScene("Polatcan");
         }
