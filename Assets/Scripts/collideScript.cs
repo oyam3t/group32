@@ -1,25 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class collideScript : MonoBehaviour
 {
 
-    //[SerializeField]
-    //GameObject character;
-    //[SerializeField]
-    //Transform characterTransform;
-    int sayac = 0;
-    private void OnCollisionEnter2D(Collision2D collision)
+   
+    
+   
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((collision.gameObject.CompareTag("enemy")))
+        if ((collision.gameObject.CompareTag("son")))
         {
-            Destroy(gameObject);// ok düþmana deðdiðinde yok etme
+            SceneManager.LoadScene("Polatcan");
         }
     }
 
-
-
+   
 
 }//class

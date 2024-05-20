@@ -7,7 +7,11 @@ TagManager:
   - enemy
   - barrier
   - Character
+<<<<<<< Updated upstream
   - Ground
+=======
+  - son
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

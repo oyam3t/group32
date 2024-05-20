@@ -60,8 +60,8 @@ public class bowScript : MonoBehaviour
     }
     IEnumerator skillwaitclock()//skill kullanabilme için bekletme
     {
-        Debug.Log("2 saniye skilli yeniden kullanabilme için beklemeye alýndý");
-        yield return new WaitForSeconds(2f);
+        Debug.Log("15 saniye skilli yeniden kullanabilme için beklemeye alýndý");
+        yield return new WaitForSeconds(15f);
         finished = true;
         Debug.Log("son saniye");
     }
