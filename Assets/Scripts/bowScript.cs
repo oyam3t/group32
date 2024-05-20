@@ -9,7 +9,7 @@ public class bowScript : MonoBehaviour
     [SerializeField]
     float addscore = 10f;
     [SerializeField]
-    Rigidbody2D rb2d;
+     Rigidbody2D rb2d;
     Vector2 difference = Vector2.zero;
     bool finished = true;
     [SerializeField]
@@ -17,7 +17,7 @@ public class bowScript : MonoBehaviour
     
     private void Start()
     {
-        rb2d = bullet.gameObject.GetComponent<Rigidbody2D>();    
+        //rb2d = bullet.gameObject.GetComponent<Rigidbody2D>();    
     }
     void Update()
     {

@@ -6,10 +6,10 @@ using UnityEngine;
 public class collideScript : MonoBehaviour
 {
 
-    [SerializeField]
-    GameObject character;
-    [SerializeField]
-    Transform characterTransform;
+    //[SerializeField]
+    //GameObject character;
+    //[SerializeField]
+    //Transform characterTransform;
     int sayac = 0;
     private void OnCollisionEnter2D(Collision2D collision)
     {
