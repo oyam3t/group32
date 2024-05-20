@@ -12,7 +12,7 @@ public class CameraScript : MonoBehaviour
     private float minX, maxX;
     void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
+        player = GameObject.FindWithTag("Character").transform;
     }
 
 
